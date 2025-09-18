@@ -1,0 +1,12 @@
+MUUNTOKERROIN = 2.54
+
+
+tuumat = float(input("Anna pituus tuumina (negatiivinen lopettaa): "))
+
+
+while tuumat >= 0:
+    senttimetrit = tuumat * MUUNTOKERROIN
+    print(f"{tuumat} tuumaa on {senttimetrit:.2f} cm")
+    tuumat = float(input("Anna pituus tuumina (negatiivinen lopettaa): "))
+
+print("Ohjelma lopetettu.")
