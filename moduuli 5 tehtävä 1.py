@@ -1,12 +1,12 @@
 import random
 
 
-lukumäärä = int(input("Anna arpakuutioiden lukumäärä: "))
+lukumaara  = int(input("Anna arpakuutioiden lukumaara: "))
 
 
 summa = 0
 
-for i in range(lukumäärä):
+for i in range(lukumaara):
 
     silmaluku = random.randint(1, 6)
     print(f"{i+1}. noppa: {silmaluku}")
